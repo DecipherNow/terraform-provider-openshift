@@ -1,1 +1,11 @@
 vendor
+
+# direnv files 
+.envrc
+
+# terraform files
+*.tf
+*.tfstate*
+.terraform/*
+# terraform provider binary
+terraform-provider-openshift
