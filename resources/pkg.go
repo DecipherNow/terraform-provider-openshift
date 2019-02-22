@@ -15,6 +15,7 @@
 package resources
 
 import (
+	"github.com/deciphernow/terraform-provider-openshift/resources/imagestream"
 	"github.com/deciphernow/terraform-provider-openshift/resources/project"
 	"github.com/hashicorp/terraform/helper/schema"
 )
@@ -22,6 +23,7 @@ import (
 // Resources returns a map of all resources available.
 func Resources() map[string]*schema.Resource {
 	return map[string]*schema.Resource{
-		"openshift_project": project.Resource(),
+		"openshift_project":     project.Resource(),
+		"openshift_imagestream": imagestream.Resource(),
 	}
 }

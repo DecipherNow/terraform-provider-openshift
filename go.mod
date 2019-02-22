@@ -32,7 +32,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20190212230446-3e8b2be13635 // indirect
 	golang.org/x/time v0.0.0-20181108054448-85acf8d2951c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/api v0.0.0-20190216013246-4fc7e53fae8a // indirect
+	k8s.io/api v0.0.0-20190216013246-4fc7e53fae8a
 	k8s.io/apimachinery v0.0.0-20190216013122-f05b8decd79c
 	k8s.io/client-go v10.0.0+incompatible
 	k8s.io/klog v0.2.0 // indirect
