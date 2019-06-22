@@ -1,5 +1,5 @@
 # Terraform Provider - OpenShift
-This repository contains the source code for the Terraform OpenShift provider.
+This repository contains the source code for the Terraform OpenShift provider. Note that this repository does not replace the resources from the Kubernetes provider.  It only seeks to implement the OpenShift specific resources.
 
 ## Development
 The following instructions provide general guidelines for developers working on this provider.
