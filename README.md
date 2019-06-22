@@ -7,7 +7,7 @@ The following instructions provide general guidelines for developers working on 
 ### Prerequisites
 The following must be available on a development or build machine.
 
-- Go 1.11.4
+- Go 1.12.5
 - Terraform 0.10+
 
 ### Recommendations
