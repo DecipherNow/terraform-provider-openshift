@@ -15,7 +15,7 @@ require (
 	github.com/hashicorp/terraform v0.11.11
 	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/json-iterator/go v1.1.5 // indirect
-	github.com/kubernetes/apimachinery v0.0.0-20190216013122-f05b8decd79c
+	github.com/kubernetes/apimachinery v0.0.0-20190216013122-f05b8decd79c // indirect
 	github.com/mitchellh/cli v1.0.0 // indirect
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect

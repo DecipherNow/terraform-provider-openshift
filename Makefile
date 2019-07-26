@@ -11,19 +11,3 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
-package resources
-
-import (
-	"github.com/deciphernow/terraform-provider-openshift/resources/project"
-	"github.com/deciphernow/terraform-provider-openshift/resources/route"
-	"github.com/hashicorp/terraform/helper/schema"
-)
-
-// Resources returns a map of all resources available.
-func Resources() map[string]*schema.Resource {
-	return map[string]*schema.Resource{
-		"openshift_project": project.Resource(),
-		"openshift_route":   route.Resource(),
-	}
-}
